@@ -45,4 +45,4 @@ npm run dev
 For the purpose of this test app, you can use the following credentials to login
 
 - Email: `user`
-- Password: `Password`
+- Password: `Password1`
