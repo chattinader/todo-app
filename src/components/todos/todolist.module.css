@@ -1,0 +1,11 @@
+.modalContentContainer {
+    display: grid;
+    gap: .5rem;
+    padding: 2rem;
+}
+
+.modalButtonsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+}

@@ -1,0 +1,62 @@
+.modalHidden {
+    display: none;
+}
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(61, 61, 61, 0.4);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.25s, visibility 0.25s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    background-color: #3d3d3daa;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    width: 80%;
+    border-radius: 0.5rem;
+    transform: scale(0.8);
+    transition: transform 0.25s;
+}
+
+.modalHeader {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid #4d4d4d;
+    padding: 1rem 2rem;
+}
+
+.modalHeader h3 {
+    margin: 0;
+}
+
+.modalHeader svg {
+    cursor: pointer;
+}
+
+.modalBackground.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal.active {
+    transform: scale(1);
+}
+
+@media (min-width: 700px) {
+    .modal {
+        width: 40%;
+    }
+}

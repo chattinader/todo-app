@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "208e92a2-1899-4cbf-b020-ac709801e4ba",
+      "username": "user",
+      "hashedPassword": "$2a$10$MuaMoHsLb.yLRE4.C8edmeHIyWrFPDSYIN2Zd2gcK.UN/wU5lr9kK"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ef62ee21-fb09-43dd-a508-4f8e9e32a79f",
+      "value": "First task"
+    },
+    {
+      "id": "f6d21a8f-2f8a-4d45-ad8c-6e874499f479",
+      "value": "Second task"
+    }
+  ]
+}
